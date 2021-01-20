@@ -1,4 +1,4 @@
-*Blog Categories*
+##Blog Categories##
 
 News Overview
 
