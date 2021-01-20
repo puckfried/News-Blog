@@ -1,8 +1,10 @@
-##Blog Categories##
+## Blog Categories ##
 
-News Overview
+A News Overview page
 
-Spiegel Tagesschau  Taz ND  JungeWelt   AK  
+following news sites added: Spiegel Tagesschau 
+
+still missing: Taz ND  JungeWelt   AK  
 
 
 every Category should have 3 news in 3 Blocks
