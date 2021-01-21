@@ -1,25 +1,24 @@
 ## Blog Categories ##
 
-A News Overview page
+A News Overview page using blocks and iframes
 
-following news sites added: Spiegel Tagesschau 
+### Tasks: ###
 
-still missing: Taz ND  JungeWelt   AK  
+- every Category should have 3 "news" in 3 Blocks
+- the news will be collected on their own newsX.html
+- the blocks on the starting page are iframes showing the first three article from this newsX.html
 
 
-every Category should have 3 news in 3 Blocks
+### done: ###
 
--------------
-Header
-    - Headline
+- two seperate newsX.html existing
+- starting page shows 3 blocks
+- blocks can be changed between this two newsX.html
+- every block is linked to the article of the correct newsX.html 
 
-    - Navbar
 
-Main
-3 inline Blocks a 30% width
+### bugs: ###
 
-    - Blocks Content:
-    img width 100%
-    Text centered
+- the whole boxsizing system is fragile
+- scrolling bar on the starting page
 
-block rounded Corners view all news
