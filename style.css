@@ -1,23 +1,31 @@
-
+* {font-family: 'Work Sans', sans-serif;
+/* background-image: url(/image/wallpaper.jpg);
+ */
+}
 
 a:link {
 text-decoration: none;
 }
 
-a:visited {
-    text-decoration: none;
-}
 
 header {
     /* border: solid 1px black; */
-    width: 100vw;
+    /* width: 80vw; */
+    background-color: lightgrey;
+    padding: 0.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background-image: url(/image/wallpaper.jpg); */
+    background-color: rgb(238, 237, 237);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 
 }
 
 .headline {
-font-size: 3rem;
-font-weight: bold;
-text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
 
 
 }
@@ -43,8 +51,16 @@ nav .navitem {
 
 .contentbox {
     display: inline-block;
-    margin-top: 5%;
-    margin-left: 15%;
+    /* margin-top: 5%; */
+    width: 87.5%;
+    margin-left: 5%;
+    border-left: 20px solid rgb(238, 237, 237);
+    border-right: rgb(238, 237, 237) 20px solid;
+    padding-bottom: 5%;
+    border-bottom: rgb(238, 237, 237) 20px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* background-color: lightgrey; */
     /* border: solid black; */
 }
 
@@ -52,27 +68,67 @@ nav .navitem {
     text-align: center;
 
 }
+.newsbox {
+    display: inline-block;
+    width: 100%;
+    margin-left: 8%;
+}
 
 .smallframe {
     display: inline-block;
     background-color: white;
-    margin: 10px;
+    margin: 1%;
     height: 500px;
+    width: 400px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px black;
 }
-.smallframe .weiter {
+/* .smallframe:hover {
+    height: 520px;
+    width: 410px;
+    box-shadow: 5px 5px 7px black;
+} */
+
+/* .smallframe  */
+.weiter {
     display: inline-block;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     position: relative;
-    top: 50px;
-    left: 50px;
+    top: 42px;
+    left: 37%;
+    padding: 10px;
+    background-color: lightskyblue;
+    /* color: white; */
+    border-radius: 30px;
+    font-style: italic;
+}
+
+.weiter:hover {
+    display: inline-block;
+    /* border: solid black 1px; */
+    position: relative;
+    top: 42px;
+    left: 37%;
+    padding: 10px;
+    background-color: blue;
+    /* color: white; */
+    border-radius: 30px;
+    font-style: italic;
+}
+.smallframe a {
+    color: white;
+}
+
+.smallframe a:visited {
+    color: white;
 }
 
 .smallframe iframe {
     display: inline-block;
     width: 100%;
     height: 400px;
+    overflow: hidden;
+    
     /* border: solid lightgrey 4px ; */
     
     /* margin: 10px; */
@@ -82,6 +138,13 @@ nav .navitem {
 
 .artikel {
     /* background-color: white; */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: larger; 
+    display: inline-block;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    border-bottom: 2px solid black;
 }
 
 .artikel h2 {
@@ -93,3 +156,8 @@ nav .navitem {
     border-radius: 10px;
     box-shadow: 3px 3px 5px black;
     }
+
+.artikelfeed {
+    display: inline-block;
+    margin: 10%;
+}
