@@ -9,7 +9,7 @@ A News Overview page using blocks and iframes
 - the blocks on the starting page are iframes showing the first three article from this newsX.html
 
 
-### done: ###
+#### done: ####
 
 - two seperate newsX.html existing
 - starting page shows 3 blocks
@@ -17,7 +17,7 @@ A News Overview page using blocks and iframes
 - every block is linked to the article of the correct newsX.html 
 
 
-### bugs: ###
+#### bugs: ####
 
 - the whole boxsizing system is fragile
 - scrolling bar on the starting page
